@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:flutter/material.dart';
 
 class LoginPage extends StatelessWidget {
@@ -45,7 +47,7 @@ class LoginPage extends StatelessWidget {
                       onPressed: () {
                         print("Hello New User");
                       },
-                      child: Text("Login"),
+                      child: Text("Log In"),
                       style: TextButton.styleFrom()),
                 ],
               ),
